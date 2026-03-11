@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Creative Page</title>
+
+<style>
+
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:Arial, sans-serif;
+    background: linear-gradient(135deg, #0d0d0e, #201f20);
+}
+
+.card{
+    background:white;
+    padding:40px 60px;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,0.3);
+    text-align:center;
+    animation: float 3s ease-in-out infinite;
+}
+
+h1{
+    font-size:40px;
+    background: linear-gradient(90deg,#ff6a00,#1a1819);
+    -webkit-background-clip:text;
+    background-clip:text;
+    color:transparent;
+}
+
+@keyframes float{
+    0%{transform:translateY(0px);}
+    50%{transform:translateY(-10px);}
+    100%{transform:translateY(0px);}
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+<h1>Hi Guys 👋</h1>
+<h2>Today's date is Wednesday V1</h2>
+</div>
+
+</body>
+</html>
